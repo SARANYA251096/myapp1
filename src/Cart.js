@@ -18,6 +18,7 @@ function Cart({cartItems,removeFromCart}) {
                 }} className="badge bg-primary rounded-pill">X</button>
             </li>
           );
+          
         })
       }
       </ol>
