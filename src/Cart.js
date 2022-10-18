@@ -25,7 +25,7 @@ function Cart({cartItems,removeFromCart}) {
       <h3>Total :Rs.{
         cartItems.reduce((prev,curr) => {
            return prev=prev + curr.price;
-           console.log(prev);
+           
         },0)
       }</h3>
     </>

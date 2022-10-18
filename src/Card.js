@@ -5,7 +5,7 @@ function Card({ product, addToCart }) {
         <div className="col-lg-12">
           <img
             className="img-fluid" 
-            src="https://img.giznext.com/assets/model/2/11245/apple-iphone-13-86392669469042bb60d485f764c68d.jpg"
+            src={product.imge}
           ></img>
         </div>
         <div className="titles mt-2 col-lg-12">
